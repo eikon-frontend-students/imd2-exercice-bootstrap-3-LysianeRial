@@ -1,3 +1,5 @@
+@import "bootstrap/scss/bootstrap-grid";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +13,33 @@ a {
 img,
 video {
   display: block;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.container {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ab {
+  margin-bottom: 16px;
+}
+
+.cd {
+  margin-bottom: 16px;
+}
+
+.e {
+  margin-bottom: 16px;
 }
